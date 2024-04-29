@@ -1,0 +1,4 @@
+from palindrome import palindrome
+
+def test_palindrome():
+	assert palindrome(1221) == 1221

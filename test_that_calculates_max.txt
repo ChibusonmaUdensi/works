@@ -1,0 +1,5 @@
+from largest import is_largest
+
+def test_that_calculates_max():
+	assert is_largest(34, 32, 9) == 34
+	assert is_largest(87, 55, 90) == 90
